@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import Cards from "./components/cards/cards";
 
 const Home = () => {
   return (
@@ -59,6 +60,7 @@ const Home = () => {
             </SwiperSlide>
           </Swiper>
         </div>
+        <Cards />
       </div>
     </div>
   );
